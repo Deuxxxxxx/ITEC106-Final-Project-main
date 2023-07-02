@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>ITEC106 - PHP Programming</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Mentor
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto"><a href="index.html">ITEC106</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="active" href="courses.html">Home</a></li>
+            <li><a href="contact.html">Quiz</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+      <!-- ======= Breadcrumbs ======= -->
+      <div class="breadcrumbs" data-aos="fade-in">
+        <div class="container">
+          <h2>PHP Programming</h2>
+          <p>
+            Unlock PHP programming and dive into the world of server-side development. Learn how to wield the power of PHP to craft dynamic and interactive websites that captivate users.
+          </p>
+        </div>
+      </div>
+      <!-- End Breadcrumbs -->
+
+      <!-- ======= Cource Details Section ======= -->
+      <section id="course-details" class="course-details">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-lg-4">
+              <div
+                class="course-info d-flex justify-content-between align-items-center"
+              >
+                <p><a href="#1">PHP Syntax</a></p>
+              </div>
+              <div
+                class="course-info d-flex justify-content-between align-items-center"
+              >
+                <p>
+                  <a href="#2"
+                    >Tutorial Videos for PHP Handling Forms and CRUD (Create,Read,Update,Delete)</a
+                  >
+                </p>
+              </div>
+              
+              
+            </div>
+            <div class="col-lg-8">
+              <img
+                src="assets/img/modules/mod4.jpg"
+                class="img-fluid"
+                alt=""
+              />
+
+              <!-- 1st -->
+              <h3 id="1">PHP Syntax</h3>
+              <p>
+                The structure which defines PHP computer language is called PHP syntax. <br> <br>
+
+                The PHP script is executed on the server and the HTML result is sent to the browser. It can normally have HTML and PHP tags. PHP or Hypertext Preprocessor is a widely used open-source general-purpose scripting language and can be embedded with HTML. PHP files are saved with the “.php” extension. PHP scripts can be written anywhere in the document within PHP tags along with normal HTML.
+              </p>
+              <strong>Syntax</strong> <br> <br>
+              <p>
+                <strong>Canonical PHP Tags:</strong> The script starts with <?php and ends with ?>. These tags are also called ‘Canonical PHP tags’. Everything outside of a pair of opening and closing tags is ignored by the PHP parser. The open and closing tags are called delimiters. Every PHP command ends with a semi-colon (;). Let’s look at the hello world program in PHP. 
+              </p>
+              <strong>Example</strong> <br>
+              <code> 
+                # Here echo command is used to print <br>
+                echo "Hello, world!"; <br>
+              </code> <br>
+              <Strong>Output:</Strong>
+              <p>Hello, world!</p>
+              <strong>Constant: </strong>
+              <p>
+              Constants can be defined using the const keyword or define() function. <br>
+
+              There is some difference between constants and variables.</p>
+              <ul>
+                <li>Constants do not have $ in front of them like variables have.</li>
+                <li>Constants can be accessed from anywhere without regard to variable scoping rules.</li>
+              </ul>
+              <strong>Comments in PHP:</strong>
+              <p>Comments help in reminding the developer about the code if it’s re-visited after a period of time. <br> <br>
+
+              A comment is something that is ignored and not read or executed by the PHP engine or the language as part of a program and is written to make the code more readable and understandable. These are used to help other users and developers to describe the code and what it is trying to do. It can also be used in documenting a set of codes or parts of a program. You must have noticed this in the above sample programs. 
+              PHP supports two types of comment: </p>
+                <strong>Single Line Comment:</strong> <br>
+                As the name suggests these are single line or short relevant explanations that one can add to their code. To add this, we need to begin the line with (//) or (#). <br><br>
+              <strong>Example</strong> <br>
+              <code>
+                // This is a single line comment <br>
+                // These cannot be extended to more lines <br>
+
+                echo "hello world!!!"; <br>
+
+                # This is also a single line comment
+              </code> <br> <br>
+              <strong>Output: </strong> <br>
+              <p>hello world!!!</p>
+                <strong>Multi-line or Multiple line Comment: </strong>
+                <p>These are used to accommodate multiple lines with a single tag and can be extended to many lines as required by the user. To add this, we need to begin and end the line with (/*…*/) </p>
+              <strong>Example</strong> <br>
+              <code>
+                /* This is a multi line comment <br>
+                  In PHP variables are written <br>
+                  by adding a $ sign at the beginning.*/ <br>
+
+                $geek = "hello world!"; <br>
+                echo $geek;
+              </code> <br> <br>
+              <strong>Output: </strong> <br>
+              <p>hello world!</p>
+                <strong>Case Sensitivity in PHP: </strong> <br>
+                <p><strong>PHP is insensitive to whitespace.</strong> PHP is insensitive to whitespace. This includes all types of spaces that are invisible on the screen including tabs, spaces, and carriage returns. Even one space is equal to any number of spaces or carriage returns. This means that PHP will ignore all the spaces or tabs in a single row or carriage return in multiple rows. Unless a semi-colon is encountered, PHP treats multiple lines as a single command.</p>
+              <strong>Example: </strong> <br>
+                <code>
+                // PHP code illustrate the whitespace insensitivity <br>
+                $var1		 =	 15; <br>
+                $var2 = <br>
+                30; <br>
+                $sum = $var1 <br>
+                + <br>
+                $var2; <br>
+
+                // "\n" for new line <br>
+                echo $sum, "\n"; <br>
+
+                $sum1 = $var1 + $var2; <br>
+                echo $sum1; <br>
+              </code>
+              <strong>Output: </strong>
+              <p>45 <br> 45</p>
+              <p><i>Both of them show the same results without any errors.</i></p>
+              <p><strong>PHP is case-sensitive.</strong> All the keywords, functions, and class names in PHP (while, if, echo, else, etc) are NOT case-sensitive except variables. Only variables with different cases are treated differently. Let’s look at this example: </p>
+              <strong>Example: </strong> <br>
+              <code>
+                // Here we can see that all echo <br>
+                // statements are executed in the same manner <br>
+
+                $variable = 25; <br>
+                echo $variable; <br>
+                ECHO $variable; <br>
+                EcHo $variable; <br>
+
+                // but this line will show RUNTIME ERROR as <br>
+                // "Undefined Variable" <br>
+                echo $VARIABLE <br>
+              </code>
+              <strong>Output: </strong>
+              <p>
+                25 <br>
+                25 <br>
+                25 <br> 
+              </p>
+              <p><strong>Blocks in PHP: </strong>In PHP, multiple statements can be executed simultaneously (under a single condition or loop) by using curly-braces ({}). This forms a block of statements that gets executed simultaneously. </p>
+              <strong>Example: </strong> <br>
+              <code>
+                $var = 50; <br>
+                if ($var>0){ <br>
+                  echo ("Positive as \n"); <br>
+                  echo ("greater than 0"); <br>
+                } <br>
+
+              </code>
+              <strong>Output: </strong>
+              <p>Positive as <br>
+                greater than 0</p>
+              <strong>PHP Data Types</strong>
+              <p>Data Types define the type of data a variable can store. PHP allows eight different types of data types. All of them are discussed below. There are pre-defined, user-defined, and special data types.</p>
+              <strong>1. Integer:</strong>
+              <p>Integers hold only whole numbers including positive and negative numbers, i.e., numbers without fractional part or decimal point. They can be decimal (base 10), octal (base 8), or hexadecimal (base 16). The default base is decimal (base 10). The octal integers can be declared with leading 0 and the hexadecimal can be declared with leading 0x. The range of integers must lie between -2^31 to 2^31. </p>
+              <strong>Example: </strong> <br>
+              <code>
+                // decimal base integers <br>
+                $deci1 = 50; <br>
+                $deci2 = 654; <br>
+
+                // octal base integers <br>
+                $octal1 = 07; <br>
+
+                // hexadecimal base integers <br>
+                $octal = 0x45; <br>
+
+                $sum = $deci1 + $deci2; <br>
+                echo $sum; <br>
+                echo "\n\n"; <br>
+
+                //returns data type and value <br>
+                var_dump($sum) <br>
+              </code>
+              <strong>Output: </strong>
+              <p>
+              704 <br>
+
+              int(704)
+              </p>
+              <strong>2. Double:</strong>
+              <p>Can hold numbers containing fractional or decimal parts including positive and negative numbers or a number in exponential form. By default, the variables add a minimum number of decimal places. The Double data type is the same as a float as floating-point numbers or real numbers.</p>
+              <strong>Example: </strong> <br>
+              <code>
+                $val1 = 50.85; <br>
+                $val2 = 654.26; <br>
+                
+                $sum = $val1 + $val2; <br>
+                
+                echo $sum; <br>
+                echo "\n\n"; <br>
+                
+                //returns data type and value <br>
+                var_dump($sum) <br>
+              </code>
+              <strong>Output: </strong>
+              <p>
+              705.11 <br>
+
+              float(705.11)
+              </p>
+              <strong>3. String:</strong>
+              <p>Hold letters or any alphabets, even numbers are included. These are written within double quotes during declaration. The strings can also be written within single quotes, but they will be treated differently while printing variables. To clarify this look at the example below. </p>
+              <strong>Example: </strong> <br>
+              <code>
+ 
+                $name = "Krishna"; <br>
+                echo "The name of the Geek is $name \n"; <br>
+                echo 'The name of the geek is $name '; <br>
+                echo "\n\n";<br>
+                
+                //returns data type, size and value<br>
+                var_dump($name)<br>
+                
+              </code>
+              <strong>Output: </strong>
+              <p>
+                The name of the Geek is Krishna  <br>
+                The name of the geek is $name  <br>
+                
+                string(7) "Krishna" <br>
+              </p> 
+              <strong>4. Boolean: </strong>
+              <p>Boolean data types are used in conditional testing. Hold only two values, either TRUE(1) or FALSE(0). Successful events will return true and unsuccessful events return false. NULL type values are also treated as false in Boolean. Apart from NULL, 0 is also considered false in boolean. If a string is empty then it is also considered false in boolean data type. </p>
+              <strong>Example: </strong> <br>
+              <code>
+                if(TRUE) <br>
+                  echo "This condition is TRUE"; <br>
+                if(FALSE) <br>
+                  echo "This condition is not TRUE"; <br>
+              </code>
+              <strong>Output: </strong>
+              <p>This condition is TRUE</p>
+              <strong>5. Array:</strong>
+              <p>Array is a compound data type that can store multiple values of the same data type. Below is an example of an array of integers. It combines a series of data that are related together.</p>
+              <strong>Example: </strong> <br>
+              <code>
+                $intArray = array( 10, 20 , 30); <br>
+                
+                echo "First Element: $intArray[0]\n"; <br>
+                echo "Second Element: $intArray[1]\n"; <br>
+                echo "Third Element: $intArray[2]\n\n"; <br>
+                
+                //returns data type and value <br>
+                var_dump($intArray); <br>
+                
+              </code>
+              <strong>Output: </strong>
+              <p>First Element: 10 <br>
+                Second Element: 20 <br>
+                Third Element: 30 <br>
+                
+                array(3) { <br>
+                  [0]=> <br>
+                  int(10) <br>
+                  [1]=> <br>
+                  int(20) <br>
+                  [2]=> <br>
+                  int(30) <br>
+                }</p>
+              <strong>6. Objects:</strong>
+              <p>Objects are defined as instances of user-defined classes that can hold both values and functions and information for data processing specific to the class. This is an advanced topic and will be discussed in detail in further articles. When the objects are created, they inherit all the properties and behaviours from the class, having different values for all the properties.</p>
+              <strong>Example: </strong>
+              <code>
+
+                class gfg { <br>
+                var $message; <br>
+                
+                function gfg($message) { <br>
+                  $this->message = $message; <br>
+                } <br>
+                
+                function msg() { <br>
+                  return "This is an example of " . $this->message . "!"; <br>
+                } <br>
+                } <br>
+                
+                // instantiating a object <br>
+                $newObj = new gfg("Object Data Type");<br> 
+                echo $newObj -> msg();<br>
+                                
+              </code>
+              <strong>Output: </strong>
+              <p>This is an example of Object Data Type!</p>
+              <strong>7. NULL:</strong>
+              <p>These are special types of variables that can hold only one value i.e., NULL. We follow the convention of writing it in capital form, but it’s case-sensitive. If a variable is created without a value or no value, it is automatically assigned a value of NULL. It is written in capital letters.</p>
+              <strong>Example: </strong> <br>
+              <code>
+                $nm = NULL; <br>
+                echo $nm; // this will return no output <br>
+                
+                // return data type <br>
+                var_dump($nm); <br>
+                                
+              </code>
+              <strong>Output: </strong>
+              <p>NULL</p>
+              <strong>8. Resources:</strong>
+              <p>Resources in PHP are not an exact data type. These are basically used to store references to some function call or to external PHP resources. For example, consider a database call. This is an external resource. Resource variables hold special handles for files and database connections.</p>
+
+              <!-- 2nd Section -->
+              <h3 id="2">Videos for PHP Handling Forms and CRUD (Create, Read, Update, and Delete)</h3>
+              <h4><strong>Full PHP Basic Tutorial</strong></h4>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/BUCiSSyIGGU" frameborder="0" allowfullscreen></iframe>
+              <br> <br>
+              <h4><strong>PHP Handling Forms Tutorial</strong></h4>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/cQIVmuqVxf4" frameborder="0" allowfullscreen></iframe>
+              <br> <br>
+              <h4><strong>CRUD (Create, Read, Update, and Delete) Tutorial</strong></h4>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/NqP0-UkIQS4" frameborder="0" allowfullscreen></iframe>
+
+
+              <strong><i>Reference:</i></strong> <br>
+              <i>https://www.geeksforgeeks.org/php-basic-syntax/</i> <br>
+              <i>https://www.geeksforgeeks.org/php-data-types/?ref=lbp</i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Cource Details Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>ITEC 106</h3>
+              <p>
+                Cavite State University CCAT Campus <br />
+                BSInfoTech 402-A<br />
+                Final Project <br /><br />
+                <strong>Phone:</strong> 09121212123<br />
+                <strong>Email:</strong> raven.solis@cvsu.edu.ph<br />
+              </p>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="courses.html">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Modules</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="chapter1.html">Introduction to Web Development</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="chapter2.html">Introduction to JavaScript</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="chapter3.html">Introduction to PHP and MySQL</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="chapter4.html">PHP Programming</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="chapter5.html">Web Framework</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Join Our Newsletter</h4>
+              <p>
+                Stay informed and secure with our Network Security Newsletter!
+                Get the latest updates, insights, and tips to protect your
+                digital assets.
+              </p>
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>ITEC 106</span></strong
+            >. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
+            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
